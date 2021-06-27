@@ -1,0 +1,81 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: #0d324d;
+	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%); 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+h1
+{
+	color: #ffff;
+	letter-spacing: 3px;
+}
+
+.mainContainer
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px
+}
+
+.CharacterCard
+{
+	background: #ffff;
+	border-radius: 20px;
+	margin: 10px ;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	width: 200px;
+	justify-content: center;
+	
+
+}
+
+.imgContainer
+{
+	border-radius: 60%;
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.imgContainer img
+{
+	border-radius: 50%;
+	max-width: 90%;
+	height: 100px;
+}
+
+.CharacterInfo
+{
+
+	margin-top: 20px;
+}
+
+.portrayed
+{
+	font-size: 0.5em;
+}
+
+.category
+{
+	font-size: 0.5em;
+	letter-spacing: 1px;
+}
