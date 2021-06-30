@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import AddCharacters from './Components/AddCharacters';
+//import AddCharacters from './Components/AddCharacters';
+import HookAddCharacters from './Components/HookAddCharacters';
+
 import styles from "./Components/stylesheet.module.css"
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
 
       <div className={styles.mainContainer} >
 
-        <AddCharacters/>
+        {/* <AddCharacters/> */}
+
+        <HookAddCharacters/>
 
       </div>
     </body>
